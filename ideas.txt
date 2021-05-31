@@ -1,0 +1,10 @@
+> color scheme:  F87060|9C0D38|FFF8F0
+> draw toggle button. -- makes it not really an etch-a-sketch
+> animation for each square when it is being drawn in (try something with pseudo elements)
+> incremental darkening as suggested in the project
+> slider for number of squares in grid.
+
+----------------------------------------------------
+future suggestions
+====================================================
+let the user choose between keyboard and mouse input
