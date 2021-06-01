@@ -1,0 +1,18 @@
+.grid {
+    margin-top: 7%;
+    border: 5px solid black;
+    height: 65%;
+    width: 65%;
+
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+.grid div{
+    background-color: #BFD7EA;
+    border: 1px solid black;
+}
+
+.grid div.chosen{
+    background-color: #011627;
+}

@@ -1,0 +1,46 @@
+body {
+    background-color: #E8C547;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+header {
+    height: 15%;
+    width: 100%;
+    flex-grow: 1;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-card {
+    font-family: Calligraffitti, monospace;
+    font-size: 70px;
+    color: #011627;
+    text-shadow: 3px 3px 1px #BFD7EA;
+}
+
+main {
+    height: 85%;
+    width: 100%;
+    flex-grow: 2;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,4 +1,4 @@
-> color scheme:  F87060|9C0D38|FFF8F0
+> color scheme:  011627|E8C547|BFD7EA
 > draw toggle button. -- makes it not really an etch-a-sketch
 > animation for each square when it is being drawn in (try something with pseudo elements)
 > incremental darkening as suggested in the project
