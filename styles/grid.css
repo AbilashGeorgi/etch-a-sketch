@@ -1,11 +1,10 @@
 .grid {
-    margin-top: 7%;
+    margin-top: 3%;
     border: 5px solid black;
-    height: 65%;
-    width: 65%;
+    height: 30vw;
+    width: 30vw;
 
     display: grid;
-    grid-template-columns: repeat(3, auto);
 }
 
 .grid div{
