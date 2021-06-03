@@ -26,8 +26,20 @@ function clearGridElements() {
 
 function initialise() {
     initialiseGrid()
+
+    //init the reset button
     const reset = document.querySelector('button#reset');
     reset.addEventListener('click', () => {clearGridElements()});
+
+    //init slider
+    const slider = document.getElementById('slider');
+    const sliderOutput = document.getElementById('slider-value');
+    sliderOutput.innerText = gridColumns;
+    slider.oninput = function () {
+        gridColumns = this.value;
+        initialiseGrid();
+        sliderOutput.innerText = gridColumns;
+    };
 }
 
 initialise();

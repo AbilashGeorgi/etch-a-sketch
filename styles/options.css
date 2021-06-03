@@ -1,10 +1,10 @@
-.options {
-    margin-top: 3%; 
+.options { 
     border: 1px solid black;
-    height: 15%;
+    height: 25vh;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -30,4 +30,11 @@
     background-color: #9fc9eb;
     transform: translateY(2px) translateX(2px);
     box-shadow: 1px 1px 1px #3d3e3f;
+}
+
+#slider-value {
+    font-size: 20px;
+    font-family: monospace;
+    color: #011627;
+    text-shadow: 1px 1px 1px #BFD7EA;
 }
