@@ -1,6 +1,7 @@
 .grid {
     margin: 5vh 0;
-    border: 5px solid black;
+    padding: 0;
+    border: 5px solid #011627;
     height: 50vh;
     width: 50vh;
 
@@ -8,10 +9,13 @@
 }
 
 .grid div{
-    background-color: #BFD7EA;
-    border: 1px solid black;
+    background-color: #d6edff;
+    border: .2px dashed rgb(209, 214, 251);
+    margin: 0;
+    padding: 0;
 }
 
 .grid div.chosen{
     background-color: #011627;
+    border: none;
 }

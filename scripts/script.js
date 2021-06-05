@@ -7,7 +7,7 @@ const gridElementListener = (e) => {e.target.classList.add('chosen')};
 function initialiseGrid() {
     const grid = document.querySelector('.grid');
     grid.innerHTML = '';
-    grid.style.gridTemplateColumns = `repeat(${gridColumns}, auto)`;
+    grid.style.gridTemplateColumns = `repeat(${gridColumns}, 1fr)`;
     for (let i=1; i<=gridColumns*gridColumns; i++) {
         const div = document.createElement('div');
         div.addEventListener('mouseenter', gridElementListener);
